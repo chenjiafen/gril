@@ -8,6 +8,7 @@ public class  GrilApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(GrilApplication.class, args);
+
     }
 
 }
