@@ -4,3 +4,5 @@ server:
     context-path: /chen
 
 cupSize: B
+age: 18
+content: "cupSize：${cupSize},age：${age}"

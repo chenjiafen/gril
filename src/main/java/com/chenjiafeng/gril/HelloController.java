@@ -10,10 +10,16 @@ public class HelloController {
     @Value("${cupSize}")
     private String size;
 
+    @Value("${age}")
+    private Integer age;
+
+    @Value("${content}")
+    private String content;
+
     @RequestMapping(value = "/hello",method = RequestMethod.GET)
     public String say(){
 //        return "Hello Spring boot";
-        return size;
-
+//        return "这个女生使用的Size是"+size+"，年龄是"+age;
+        return content;
     }
 }
