@@ -20,7 +20,7 @@ public class HelloController {
     @Autowired
     private GirlProperties girlProperties;
 
-    @RequestMapping(value = "/hello",method = RequestMethod.GET)
+    @RequestMapping(value = {"/hello","/hi"},method = RequestMethod.GET)
     public String say(){
 //        return "Hello Spring boot";
 //        return "这个女生使用的Size是"+size+"，年龄是"+age;
