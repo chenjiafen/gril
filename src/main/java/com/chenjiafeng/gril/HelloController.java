@@ -19,7 +19,7 @@ public class HelloController {
     private GirlProperties girlProperties;
 
     @RequestMapping(value = "/hello",method = RequestMethod.GET)
-    public String say(@RequestParam("id") Integer myId){
+    public String say(@RequestParam(value = "id",required = false,defaultValue = "0") Integer myId){
 //        return "Hello Spring boot";
 //        return "这个女生使用的Size是"+size+"，年龄是"+age;
 //        return content;
