@@ -2,3 +2,14 @@
 spring:
   profiles:
     active: prod
+#数据配置
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:localhost:3306/store
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+
