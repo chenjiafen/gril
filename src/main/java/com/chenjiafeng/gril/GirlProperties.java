@@ -7,6 +7,7 @@ import org.springframework.stereotype.Component;
 @Component
 @ConfigurationProperties(prefix = "girl")
 public class GirlProperties {
+    //注意变量名和配置名保持一致
 private String cupSzie;
 private String age;
 
