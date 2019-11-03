@@ -1,0 +1,7 @@
+server:
+  port: 8082
+  servlet:
+    context-path: /chen
+girl:
+  age: 28
+  cupSzie: F

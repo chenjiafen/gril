@@ -25,6 +25,6 @@ public class HelloController {
 //        return "Hello Spring boot";
 //        return "这个女生使用的Size是"+size+"，年龄是"+age;
 //        return content;
-        return "这个女生使用的Size是"+girlProperties.getCupSzie()+"年龄是"+girlProperties.getAge();
+        return "这个女生使用的Size是"+girlProperties.getCupSzie()+",年龄是"+girlProperties.getAge()      ;
     }
 }
